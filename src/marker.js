@@ -1,4 +1,8 @@
 const mapboxgl = require("mapbox-gl");
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7ee0aecdbd7b6fab559e30652441235ca1a5ae35
 
 const iconURLs = {
     hotels: "http://i.imgur.com/D9574Cu.png",

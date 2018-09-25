@@ -9,6 +9,43 @@
   }
 
   #map {
+    flex: 6;
     height: 100vh;
     width: 100vw;
+  }
+
+  #main{
+    display: flex;
+    flex-direction: column;
+  }
+  #navbar{
+    display: flex;
+    background-color: cornflowerblue;
+  }
+  .navbarItem{
+    margin: 20px;
+    color: lightpink;
+    font-family: 'Courier New', Courier, monospace;
+
+  }
+  .navbarItem:hover{
+    color:white;
+  }
+
+  #mapInfo{
+    display: flex;
+
+  }
+  #info{
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+  }
+  #dropDown{
+    background-color: red;
+  }
+  #itinerary{
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
   }
